@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: udagram-ms-1734469-dev
-  AWS_PROFILE: udagram1734469
+  AWS_BUCKET: udagram1734469s3
+  AWS_PROFILE: udagram_1734469
   AWS_REGION: us-east-1
   JWT_SECRET: thisismyjwtsecret
   POSTGRES_DB: postgres
-  POSTGRES_HOST: database-1.coqjygnc84np.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: database-1.cde9f9arqq37.eu-central-1.rds.amazonaws.com
   URL: http://localhost:8100  # to be replaced
 metadata:
   name: env-config
