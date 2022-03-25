@@ -3,10 +3,10 @@ kind: ConfigMap
 data:
   AWS_BUCKET: udagram1734469s3
   AWS_PROFILE: udagram_1734469
-  AWS_REGION: us-east-1
+  AWS_REGION: eu-central-1
   JWT_SECRET: thisismyjwtsecret
   POSTGRES_DB: postgres
   POSTGRES_HOST: database-1.cde9f9arqq37.eu-central-1.rds.amazonaws.com
-  URL: http://localhost:8100  # to be replaced
+  URL: http://ad860bf49eb6e41d4b8a76bd890572a7-28406660.eu-west-1.elb.amazonaws.com
 metadata:
   name: env-config
