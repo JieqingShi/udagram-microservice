@@ -5,7 +5,7 @@ metadata:
     app: frontend
   name: frontend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: frontend
@@ -16,7 +16,7 @@ spec:
         # api: external
     spec:
       containers:
-      - image: jieqingshi/udagram-frontend:v7
+      - image: jieqingshi/udagram-frontend:latest
         name: frontend
         imagePullPolicy: Always
         resources:

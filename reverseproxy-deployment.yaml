@@ -15,7 +15,7 @@ spec:
         app: reverseproxy
     spec:
       containers:
-      - image: jieqingshi/reverseproxy:v1
+      - image: jieqingshi/reverseproxy:latest
         name: reverseproxy
         imagePullPolicy: Always
         ports:

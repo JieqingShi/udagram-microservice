@@ -10,4 +10,5 @@ spec:
     port: 8100
     targetPort: 80
   selector:
-    service: frontend
+    # service: frontend
+    app: frontend

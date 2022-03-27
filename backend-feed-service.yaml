@@ -10,4 +10,5 @@ spec:
     port: 8080
     targetPort: 8080
   selector:
-    service: backend-feed
+    # service: backend-feed
+    app: backend-feed

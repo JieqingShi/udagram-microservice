@@ -27,11 +27,13 @@ import {V0_FEED_MODELS} from './controllers/v0/model.index';
     allowedHeaders: [
       'Origin', 'X-Requested-With',
       'Content-Type', 'Accept',
-      'X-Access-Token', 'Authorization',
+      'X-Access-Token', 'Authorization'
+      // 'Access-Control-Allow-Headers'
     ],
     methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
     preflightContinue: true,
     origin: '*',
+    // origin: config.url
   }));
 
   app.use('/api/v0/', IndexRouter);

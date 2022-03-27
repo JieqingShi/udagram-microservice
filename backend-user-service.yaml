@@ -11,4 +11,5 @@ spec:
     port: 8080
     targetPort: 8080
   selector:
-    service: backend-user
+    # service: backend-user
+    app: backend-user

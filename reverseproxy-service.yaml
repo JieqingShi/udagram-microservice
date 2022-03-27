@@ -10,4 +10,5 @@ spec:
     port: 8080
     targetPort: 8080
   selector:
-    service: reverseproxy
+    # service: reverseproxy
+    app: reverseproxy
